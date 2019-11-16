@@ -17,7 +17,7 @@ describe('Items', function(){
     await pify(server.close)()
   });
 
-  it('fetches an array of strings', async function(){
+  it('fetches a string', async function(){
       const web3 = new Web3('http://localhost:8545');
       const accounts = await web3.eth.getAccounts();
 
