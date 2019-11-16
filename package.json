@@ -1,0 +1,25 @@
+{
+  "name": "sol-array-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx buidler test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgewecke/sol-array-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cgewecke/sol-array-example/issues"
+  },
+  "homepage": "https://github.com/cgewecke/sol-array-example#readme",
+  "devDependencies": {
+    "@nomiclabs/buidler": "^1.0.1",
+    "ganache-cli": "^6.7.0",
+    "pify": "^4.0.1",
+    "web3": "^1.2.4"
+  }
+}
